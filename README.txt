@@ -1,0 +1,3 @@
+To run:
+
+Open matlab and set the directory to the folder where main.m is at. To run the training with ALL images, including the ones used for testing, use the main(0) command. To run the training with images EXCEPT the ones used for testing, use the main(1) command. The test output will print to the command line. And the image output, which includes the boundary, starting position, and centroid for all images, as well as the class average time series, and a reconstruction of it as an image boundary can be found in the “Output” folder in the same directory as main.m.
